@@ -1,0 +1,37 @@
+body { 
+    background-image: url('../resources/koifish.png');
+    background-repeat: repeat;
+    text-align: center;
+    font-size: xx-large;
+   }
+    
+   h1 {
+    font-family: Garamond;
+    -webkit-text-stroke: 1px black;
+    color: #8fbd82;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 25px;
+    display: inline-block;
+   }
+   ul {
+    list-style-type: none;
+    
+   }
+   
+    ul li{
+     background-color: aliceblue;
+     border-radius: 25px;
+     display: inline-block;
+     
+     padding: 10px;
+    }
+   
+   
+   ul li a{
+     color: black;
+     display: flex;
+     justify-content: center;
+    
+    
+   }
