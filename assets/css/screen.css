@@ -1,8 +1,8 @@
 body { 
     background-image: url('../resources/koifish.png');
     background-repeat: repeat;
-    text-align: center;
-    font-size: xx-large;
+   
+   
    }
     
    h1 {
@@ -12,9 +12,16 @@ body {
     background-color: aliceblue;
     padding: 5px;
     border-radius: 25px;
-    display: inline-block;
+   
+    margin: auto; /*centers content along with the whole h1 element*/
+    width: 400px;  
+    
+   font-size: 75px;
+    text-align: center;
+    width: fit-content;
+    
    }
-   ul {
+   /*ul {
     list-style-type: none;
     
    }
@@ -30,8 +37,36 @@ body {
    
    ul li a{
      color: black;
-     display: flex;
-     justify-content: center;
+  
     
     
    }
+   */
+
+  article{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 25px;
+    width: fit-content;
+    block-size: fit-content;
+    display: flex;
+    text-align: center;
+    
+  }
+
+  article h2{
+    text-align: center;
+  }
+
+  article ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    padding: 5px;
+  }
+
+  article ul li a{
+    color: black;
+    
+  }
