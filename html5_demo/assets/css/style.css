@@ -29,34 +29,43 @@ html {
   background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
   
 main{
-    width: 1336px;
+    /*width: 1336px;*/
     margin:20px auto;
     border:1px solid #000;
-    background-image: url(../resources/grid.png);
+    /*background-image: url(../resources/grid.png);*/
 }  
 
 header.primary,footer.primary{
-    width:1296px;
-    margin:20px;
+    /*width:1296px;*/
+    width:97%;
+    /*margin:20px;*/
+    margin:1.49%;
     background-color: aqua;
     float: left;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 1.54%;
 }
 
 #blog{
-    width: 732px;
+    /*width: 732px;*/
+    width: 54.79%;
     background-color: aquamarine;
     float: left;
-    margin-left: 20px;
-    padding: 20px;
+    /*margin-left: 20px;*/
+    margin-left: 1.49%;
+    /*padding: 20px;*/
+    padding: 1.54%;
 }
 
 aside{
-    width: 544px;
+    /*width: 544px;*/
+    width: 40.71%;
     float: left;
     background-color: blueviolet;
-    margin-left: 20px;
-    padding: 20px;
+    /*margin-left: 20px;*/
+    margin-left: 1.49%;
+    /*padding: 20px;*/
+    padding: 1.54%;
 }
 
 footer.post-meta{
