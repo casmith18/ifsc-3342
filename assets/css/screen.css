@@ -1,72 +1,116 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.cf {
+  zoom: 1;
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
 body { 
-    background-image: url('../resources/koifish.png');
+    background-image: url('../resources/forest_bg_2.png');
     background-repeat: repeat;
    
    
    }
     
-   h1 {
+main{
+  margin:20px auto;
+  border: 3px solid aliceblue;
+}
+   
+   
+   header{
     font-family: Garamond;
     -webkit-text-stroke: 1px black;
     color: #8fbd82;
-    background-color: aliceblue;
-    padding: 5px;
-    border-radius: 25px;
-   
-    margin: auto; /*centers content along with the whole h1 element*/
-    width: 400px;  
-    
-   font-size: 75px;
+    font-size: 75px;
+    width:97%;
+    margin:1.5%;
+    float: left;
+    padding: 1.5%;
+    background-color: rgba(240, 248, 255, .8);
     text-align: center;
-    width: fit-content;
-    
-   }
-   /*ul {
-    list-style-type: none;
-    
-   }
-   
-    ul li{
-     background-color: aliceblue;
-     border-radius: 25px;
-     display: inline-block;
-     
-     padding: 10px;
-    }
-   
-   
-   ul li a{
-     color: black;
-  
-    
-    
-   }
-   */
-
-  article{
-    background-color: aliceblue;
-    padding: 5px;
     border-radius: 25px;
+  }
+   
+
+  section{
+    font-family: Garamond;
+    width: 31.28%;
+    margin-left:1.5%;
+    float: left;
+    padding: 1.5%;
     font-size: 25px;
-    width: fit-content;
-    block-size: fit-content;
-    display: flex;
-    text-align: center;
-    
+    background-color: rgba(240, 248, 255, .8);
   }
 
-  article h2{
+  #work h1{
     text-align: center;
   }
 
-  article ul {
+  #work{
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+  }
+  
+  #blog{
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+  }
+
+  #video h1{
+    text-align: center;
+  }
+
+  #video img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+  
+  #blog h1{
+    text-align: center;
+  }
+  
+  #work ul{
     list-style-type: none;
-    padding-left: 0;
-    text-align: center;
-    padding: 5px;
   }
 
-  article ul li a{
+  section ul {
+    list-style-type: none;
+   
+  }
+
+  section ul li a{
+    color: black;
+  }
+
+  footer{
+    width:97%;
+    margin:1.5%;
+    float: left;
+    padding: 1.5%;
+    background-color: rgba(240, 248, 255, .8);
+    text-align:center;
+    font-size: 25px;
+    border-radius: 25px;
+  }
+
+   footer p a{
     color: black;
     
-  }
+   }
