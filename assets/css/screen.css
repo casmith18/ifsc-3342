@@ -40,7 +40,7 @@ main{
     margin:1.5%;
     float: left;
     padding: 1.5%;
-    background-color: rgba(240, 248, 255, .8);
+    background-color: rgba(240, 248, 255, .9);
     text-align: center;
     border-radius: 25px;
   }
@@ -53,7 +53,7 @@ main{
     float: left;
     padding: 1.5%;
     font-size: 25px;
-    background-color: rgba(240, 248, 255, .8);
+    background-color: rgba(240, 248, 255, .9);
   }
 
   #work h1{
@@ -62,13 +62,20 @@ main{
   }
 
   #work{
-    border-top-left-radius:25px;
-    border-bottom-left-radius:25px;
+    border-radius: 25px;
   }
   
+  #work ul li{
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
   #blog{
-    border-top-right-radius:25px;
-    border-bottom-right-radius:25px;
+    border-radius: 25px;
+  }
+
+  #video{
+    border-radius: 25px;
   }
 
   #video h1{
@@ -80,7 +87,7 @@ main{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
   }
   
   #blog h1{
@@ -88,15 +95,6 @@ main{
     font-size: 50px;
   }
   
-  #work ul{
-    list-style-type: none;
-  }
-
-  section ul {
-    list-style-type: none;
-   
-  }
-
   section ul li a{
     color: black;
   }
@@ -106,7 +104,7 @@ main{
     margin:1.5%;
     float: left;
     padding: 1.5%;
-    background-color: rgba(240, 248, 255, .8);
+    background-color: rgba(240, 248, 255, .9);
     text-align:center;
     font-size: 25px;
     border-radius: 25px;
@@ -121,3 +119,101 @@ article h2{
   font-size: 25px;
 }
 
+@media screen and (max-width:764px){
+
+  section{
+    width:97%;
+    margin:1.5%;
+  }
+
+ 
+}
+
+@media screen and (max-width:480px){
+
+header{
+  font-size: 40px;
+}
+
+section{
+  font-size: 18px;
+}
+
+#work h1{
+  font-size: 25px;
+}
+
+#video h1{
+  font-size: 25px;
+}
+
+#blog h1{
+  font-size: 25px;
+}
+
+#blog h2{
+  font-size: 22px;
+}
+
+footer{
+  font-size:15px;
+}
+}
+
+@media screen and (max-width:275px){
+
+header{
+  font-size: 25px;
+}
+
+section{
+  font-size: 13px;
+}
+
+#work h1{
+  font-size: 18px;
+}
+
+#video h1{
+  font-size: 18px;
+}
+
+#blog h1{
+  font-size: 18px;
+}
+
+#blog h2{
+  font-size: 15px;
+  text-align: center;
+}
+
+#blog p{
+  text-align: center;
+}
+footer{
+  font: size 10px;
+}
+}
+
+@media screen and (max-width:980px) and (min-width:481px){
+
+  #work h1{
+    font-size: 35px;
+  }
+  
+  #video h1{
+    font-size: 35px;
+  }
+  
+  #blog h1{
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width:1150px){
+
+  #work ul li{
+    font-size:45px;
+  }
+}
