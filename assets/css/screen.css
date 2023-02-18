@@ -203,13 +203,13 @@ article h2{
     font-size: .8em;
   }
  
+  header{
+    font-size: 50px;
+  }
+
 }
 
 @media screen and (max-width:480px){
-
-header{
-  font-size: 40px;
-}
 
 section{
   font-size: 18px;
