@@ -22,13 +22,10 @@ html {
 body { 
     background-image: url('../resources/background_8.jpg');
     background-repeat: repeat;
-   /* background-color: grey;*/
-   
    }
     
 main{
   margin:20px auto;
-  /*border: 3px solid aliceblue;*/
 }
    
    
@@ -295,4 +292,16 @@ footer{
   #work ul li{
     font-size:45px;
   }
+}
+
+@media screen and (min-width:912px){
+
+  nav ul li{
+    padding-top: 20px;
+  }
+
+  nav ul li a{
+  font-size: 45px;
+}
+
 }
