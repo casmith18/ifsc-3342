@@ -20,21 +20,21 @@ html {
 }
 
 body { 
-    background-image: url('../resources/background_5.jpg');
+    background-image: url('../resources/background_8.jpg');
     background-repeat: repeat;
-   
+   /* background-color: grey;*/
    
    }
     
 main{
   margin:20px auto;
-  border: 3px solid aliceblue;
+  /*border: 3px solid aliceblue;*/
 }
    
    
    header{
     font-family: Garamond;
-    color: brown;
+    color: black;
     font-size: 90px;
     width:97%;
     margin:1.5%;
@@ -42,9 +42,52 @@ main{
     padding: 1.5%;
     background-color: rgba(240, 248, 255, .9);
     text-align: center;
-    border-radius: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
   }
+
+  nav{
+    font-family: Garamond;
+    color: black;
+    font-size: 20px;
+    width:97%;
+    margin:1.5%;
+    float: left;
+    padding: 1.5%;
+    text-align: center;
+    border-radius: 5px;
    
+  }
+
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  nav ul li{
+    display: inline;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  nav ul li a{
+   color: rgba(240, 248, 255, .9);
+   font-size: 30px;
+   text-decoration: none;
+   padding: 5px;
+  }
+
+  nav ul li:hover{
+    background-color: rgba(240, 248, 255, .9);
+  }
+  
+  nav ul li a:hover {
+   
+    color: black;
+  }
 
   section{
     font-family: Garamond;
@@ -54,6 +97,7 @@ main{
     padding: 1.5%;
     font-size: 25px;
     background-color: rgba(240, 248, 255, .9);
+    box-shadow: 2px 2px 2px 2px black;
   }
 
   #work h1{
@@ -62,7 +106,7 @@ main{
   }
 
   #work{
-    border-radius: 25px;
+    border-radius: 5px;
   }
   
   #work ul li{
@@ -70,12 +114,16 @@ main{
     padding: 10px;
   }
 
+  #work p{
+    font-size: 1.5vw;
+  }
+  
   #blog{
-    border-radius: 25px;
+    border-radius: 5px;
   }
 
   #video{
-    border-radius: 25px;
+    border-radius: 5px;
   }
 
   #video h1{
@@ -107,7 +155,8 @@ main{
     background-color: rgba(240, 248, 255, .9);
     text-align:center;
     font-size: 25px;
-    border-radius: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
   }
 
    footer p a{
@@ -119,13 +168,43 @@ article h2{
   font-size: 25px;
 }
 
+@media screen and (max-width:565px){
+
+  nav ul li{
+    /*display: block;*/
+    background:none;
+  }
+
+  nav ul li a{
+    color: black;
+    font-size: 1em;
+    text-decoration: underline;
+  }
+
+}
+
+@media screen and (max-width:480px){
+
+  #work p{
+    display: none;
+  }
+
+  nav ul li{
+    display: block;
+  }
+  
+}
+
 @media screen and (max-width:764px){
 
   section{
     width:97%;
     margin:1.5%;
   }
-
+ 
+  #work p{
+    font-size: .8em;
+  }
  
 }
 
