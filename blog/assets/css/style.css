@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .cf {
+    zoom: 1;
+  }
+  .cf:before,
+  .cf:after {
+    content: "";
+    display: table;
+  }
+  .cf:after {
+    clear: both;
+  }
+  
+  body { 
+      background-image: url('../../../assets/resources/background_8.jpg');
+      background-repeat: repeat;
+     }
+      
+  main{
+    margin:20px auto;
+  }
+
+  header{
+    font-family: Garamond;
+    color: black;
+    font-size: 90px;
+    width:97%;
+    margin:3.7%;
+    float: left;
+    padding: 1.5%;
+    background-color: rgba(240, 248, 255, .9);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+
+  section{
+    font-family: Garamond;
+    width: 42.5%;
+    margin-left:3.7%;
+    float: left;
+    padding: 1.5%;
+    font-size: 25px;
+    background-color: rgba(240, 248, 255, .9);
+    box-shadow: 2px 2px 2px 2px black;
+  }
+
+
+
+  footer{
+    width:97%;
+    margin:3.7%;
+    float: left;
+    padding: 1.5%;
+    background-color: rgba(240, 248, 255, .9);
+    text-align:center;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+
+   footer p a{
+    color: black;
+    
+   }

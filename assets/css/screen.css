@@ -78,7 +78,7 @@ main{
   }
 
   nav ul li:hover{
-    background-color: rgba(240, 248, 255, .9);
+    background: none;
   }
   
   nav ul li a:hover {
