@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Resume</title>
+  <meta name="description" content="Carson Smith's Resposive Resume Assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Carson Smith">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  
+  <!--Resume Starter-->
+
+  <!-- Main navigation -->
+  <nav class="primary">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+  </nav>
+</header>
+<!-- Main -->
+<main itemscope itemtype="http://schema.org/Person">
+  <h1>Carson Andrew Smith</h1>
+  <section id="about">
+    <h2>Personal details</h2>
+    <img itemprop="image" src="https://fakeimg.pl/400/" alt="Carson Andrew Smith">
+    <p itemprop="description">Statement of Intent</p>
+    <dl>
+      <dt>Name</dt>
+      <dd itemprop="name">
+        <span itemprop="givenName">Carson</span> <span itemprop="familyName">Smith</span>
+      </dd>
+      <dt>Date of birth</dt>
+      <dd itemprop="birthDate"><time datetime="1976-10-12">02/07/2003</time></dd>
+      <dt>Nationality</dt>
+      <dd itemprop="nationality">U.S.A</dd>
+      <dt>Location</dt>
+      <dd itemprop="homeLocation">Arkansas</dd>
+      <dt>Telephone</dt>
+      <dd>
+        <a itemprop="telephone" href="tel:501.517.2788">501.517.2788</a>
+      </dd>
+      <dt>Email</dt>
+      <dd>
+        <a itemprop="email" href="mailto:casmith18@ualr.edu">casmith18@ualr.edu</a>
+      </dd>
+      <dt>Address</dt>
+
+      <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">2362 Chestnut Loop</span>
+        <span itemprop="addressLocality">Little Rock</span>
+        <span itemprop="postalCode">72210</span>
+        <span itemprop="addressCountry">USA</span>
+      </dd>
+
+    </dl>
+    <ul class="related-links">
+      <li><a itemprop="url" rel="me" href="https://github.com/profile">github</a></li>
+      <li><a itemprop="url" rel="me" href="http://linkedin.com/profile">linkedin</a></li>
+      <li><a itemprop="url" href="resume.pdf" download>pdf resume</a></li>
+    </ul>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li class="skill">HTML</li>
+      <li class="skill">Scss</li>
+    </ul>
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <!-- current job -->
+    <article class="job">
+      <h3 itemprop="jobTitle">Freelance Web Developer</h3>
+      <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name">Precision Productions</span>
+        <span>February 2003 - Present</span>
+        <p itemprop="description">Freelance Web Developer for a multitude of clients</p>
+        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <a itemprop="url" href="http://link-to-company.com">NA</a>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="addressLocality">Little Rock, Arkansas, USA</span>
+        </span>
+        </span>
+      </div>
+    </article>
+    <!-- Previous Jobs - Notice Slightly Different Format-->
+    <article class="job" itemscope itemtype="http://schema.org/Organization">
+      <h3 itemprop="name">Siding Hanger</h3>
+        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">R.S Construction</span>
+        <a itemprop="url" href="http://link-to-company.com">NA</a>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Bryant, Arkansas, USA</span>
+        </span>
+        </span>
+        <span itemprop="startDate" content="2006-02-21T20:00">June 2015</span>
+        <span itemprop="endDate" content="2009-02-21T20:00">January 2023</span>
+      <p itemprop="description">Hung siding and gutters on houses and buildings</p>
+    </article>
+    <article class="job" itemscope itemtype="http://schema.org/Organization">
+      <h3 itemprop="name">Web Developer</h3>
+        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">Company Name 2</span>
+        <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Anywhere, USA</span>
+        </span>
+        </span>
+        <span itemprop="startDate" content="2004-01-21T20:00">January 2004</span>
+        <span itemprop="endDate" content="2006-02-21T20:00">February 2006</span>
+      <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+    </article>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+      <h3 itemprop="description"><abbr title="Master of Science">BA</abbr>Web Design and Development</h3>
+        <span itemprop="name">University name 1</span>
+        <span itemprop="location" itemscope>Anywhere, USA</span>
+        <span>2005-2007</span>
+    </article>
+  </section>
+</main>
+<!-- Footer -->
+<footer>
+  <div id="copyright">
+    &copy; company. All rights reserved.
+  </div>
+</footer>
+
+<!--Resume Starter end-->
+
+
+
+
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
