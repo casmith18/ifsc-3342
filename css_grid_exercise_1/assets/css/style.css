@@ -28,8 +28,8 @@ html {
 main{
   margin:2vh auto;
   border:1px solid #000;
-  width: 1336px;
-  background-image: url(../resources/grid.png);
+  width: 75vw;
+  /*background-image: url(../resources/grid.png);*/
   display: grid;
   grid-template-columns: repeat(7,1fr);
   gap:20px;
