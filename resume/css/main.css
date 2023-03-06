@@ -295,10 +295,13 @@ body{
 nav a{
   color: #000;
   background-color: rgb(104,113,105,.6);
-  padding:10px;
+  padding:5px;
   border:1px solid black;
-  border-radius: 7px;
-  margin:5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
 }
 
 nav{
@@ -322,9 +325,9 @@ h1{
   padding: 15px;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
-  border-left:1px solid black;
-  border-right:1px solid black;
-  border-top:1px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  border-top:2px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -332,32 +335,60 @@ h1{
 img{
   display: block;
   margin: auto;
-  border:1px solid #000;
+  border:2px solid #000;
   border-radius: 180px;
 }
 
 #about{
   background-color: rgb(104,113,105,.6);
   padding: 15px;
-  /*border-radius: 18px;*/
-  border-left:1px solid black;
-  border-right:1px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about a{
+  text-decoration: none;
+  color: black;
+}
+
+#about p{
+  padding: 15px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#about ul{
+text-decoration: underline;
+text-align: center;
+
+}
+
+#about ul li{
+  display: inline-block;
+  text-align: left;
+}
+
+#about ul li a{
+  background-color: #fff;
+  
 }
 
 #skills{
-  border-left:1px solid black;
-  border-right:1px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
   background-color: rgb(104,113,105,.6);
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 #experience{
-  border-left:1px solid black;
-  border-right:1px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
   background-color: rgb(104,113,105,.6);
   padding: 15px;
   margin-top: 20px;
@@ -365,22 +396,52 @@ img{
 }
 
 #education{
-  border-left:1px solid black;
-  border-right:1px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
   background-color: rgb(104,113,105,.6);
   padding: 15px;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom:1px solid black;
+  border-bottom:2px solid black;
 }
 
 dl{
-  display: block;
-  text-align: left;
+  display: grid;
+}
+
+dt{
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
 dd{
-  display: block;
-  text-align: right;
+  grid-column: 2;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#skills h2{
+  text-align: center;
+  background-color: #000;
+  color:rgb(104,113,105);
+  border-radius: 18px;
+  font-size:30px;
+}
+
+#experience h2{
+  text-align: center;
+  background-color: #000;
+  color:rgb(104,113,105);
+  border-radius: 18px;
+  font-size:30px;
+}
+
+#education h2{
+  text-align: center;
+  background-color: #000;
+  color:rgb(104,113,105);
+  border-radius: 18px;
+  font-size:30px;
 }
