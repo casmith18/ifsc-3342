@@ -263,9 +263,15 @@ textarea {
 
 /*End of HTML BP*/
 
+/* Colors!!!               
+grey rgb(104,113,105)
+light green rgb(169,186,157)
+light grey almost white rgb(208,217,205)
+*/
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -274,24 +280,24 @@ html {
 }
 
 img {
-  max-width:100%;
+  max-width:65%;
   height:auto;
 }
 
 
 body{
   margin:0 auto;
+  background-color:rgb(169,186,157,.3) ;
   width:460px;
-  background-color: aquamarine;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 nav a{
   color: #000;
-  background-color: aliceblue;
+  background-color: rgb(104,113,105,.6);
   padding:10px;
-  border:1px solid #000;
-  border-radius: 3px;
+  border:1px solid black;
+  border-radius: 7px;
   margin:5px;
 }
 
@@ -303,17 +309,78 @@ nav{
 
 nav a:hover{
   text-decoration: none;
-  background-color: #000;
-  color: aliceblue;
+  background-color:transparent;
+  color: black;
+  transition: background-color .2s ease
 }
 
 h1{
   text-align: center;
+  font-family: Palatino Linotype;
+  font-size: 50px;
+  background-color: rgb(104,113,105,.6);
+  padding: 15px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  border-top:1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img{
   display: block;
   margin: auto;
   border:1px solid #000;
-  border-radius: 10px;
+  border-radius: 180px;
+}
+
+#about{
+  background-color: rgb(104,113,105,.6);
+  padding: 15px;
+  /*border-radius: 18px;*/
+  border-left:1px solid black;
+  border-right:1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#skills{
+  border-left:1px solid black;
+  border-right:1px solid black;
+  background-color: rgb(104,113,105,.6);
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#experience{
+  border-left:1px solid black;
+  border-right:1px solid black;
+  background-color: rgb(104,113,105,.6);
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#education{
+  border-left:1px solid black;
+  border-right:1px solid black;
+  background-color: rgb(104,113,105,.6);
+  padding: 15px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom:1px solid black;
+}
+
+dl{
+  display: block;
+  text-align: left;
+}
+dd{
+  display: block;
+  text-align: right;
 }
