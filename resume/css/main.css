@@ -360,7 +360,7 @@ img{
   font-size: 18px;
 }
 
-#about ul{
+/*#about ul{
 text-decoration: underline;
 text-align: center;
 
@@ -375,7 +375,7 @@ text-align: center;
   background-color: #fff;
   
 }
-
+*/
 #skills{
   border-left:2px solid black;
   border-right:2px solid black;
@@ -444,4 +444,8 @@ dd{
   color:rgb(104,113,105);
   border-radius: 18px;
   font-size:30px;
+}
+
+#skills ul li{
+  font-size: 20px;
 }
