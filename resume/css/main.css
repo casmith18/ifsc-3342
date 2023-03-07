@@ -449,3 +449,89 @@ dd{
 #skills ul li{
   font-size: 20px;
 }
+
+footer{
+  text-align: center;
+}
+
+
+
+
+
+/*                Media Queries                */
+
+
+@media screen and (min-width:768px){
+
+body{
+  width:800px;
+}
+
+img{
+  display: flex;
+  float: left;
+  max-width:50%;
+  margin-right: 50px;
+}
+
+#about p{
+  font-size:25px;
+}
+
+#about dt{
+  font-size:20px;
+}
+
+#about dd{
+  font-size:20px;
+}
+
+#about ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#about ul li{
+  padding:20px;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+nav a{
+  font-size: 30px;
+}
+
+#skills ul li{
+display: inline;
+font-size: 30px;
+padding:10px;
+text-decoration: underline;
+}
+
+#experience h3{
+font-size:25px;
+}
+
+#education h3{
+font-size:25px;
+}
+
+#experience span{
+  font-size:20px;
+}
+
+#experience a{
+  font-size:20px;
+}
+
+#experience p{
+  font-size:20px;
+}
+
+#education span{
+  font-size:20px;
+}
+
+
+}
