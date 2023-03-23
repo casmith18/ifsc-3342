@@ -535,3 +535,63 @@ font-size:25px;
 
 
 }
+
+@media screen and (min-width:1060px){
+
+body{
+  margin:20px auto;
+  width: fit-content;
+}
+
+nav{
+  width:97%;
+  margin:1.49%;
+}
+
+nav a{
+  font-size: 45px;
+}
+
+.page-title{
+  width:97%;
+  margin:1.49%;
+}
+ 
+#about{
+  width: 54.79%;
+  float: left;
+  padding: 1.54%;
+  margin-left: 1.49%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-bottom:2px solid black;
+}
+
+#skills{
+  width: 40.71%;
+  float: left;
+  margin-left: 1.49%;
+}
+
+#education{
+  width: 40.71%;
+  float: left;
+  margin-left: 1.49%;
+
+}
+
+#experience{
+  width: 40.71%;
+  float: left;
+  margin-left: 1.49%;
+  
+}
+
+footer{
+  width:97%;
+  padding: 1.54%;
+  margin:1.49%;
+  font-size: 20px;
+}
+
+}
