@@ -269,6 +269,7 @@ textarea {
 
 .nav-link{
   font-size: 35px;
+  color: #fff;
 }
 
 #carouselExampleAutoplaying, .carousel-item img{
@@ -277,3 +278,12 @@ object-position: center;
 height: 75vh;
 overflow: hidden;
 }
+
+.customfooter{
+  color: #fff;
+}
+
+/*My queries*/
+
+
+
