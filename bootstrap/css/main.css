@@ -261,3 +261,19 @@ textarea {
   }
 }
 
+/*My CSS*/
+
+.navbar-brand{
+  font-size: 50px;
+}
+
+.nav-link{
+  font-size: 35px;
+}
+
+#carouselExampleAutoplaying, .carousel-item img{
+object-fit: cover;
+object-position: center;
+height: 75vh;
+overflow: hidden;
+}
