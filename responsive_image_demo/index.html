@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carson Smith">
+    <meta name="description" content="demo for responsive images">
+    <title>Responsive Images Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+   
+        <h1>Resonsive Images Demo</h1> 
+       
+        <img src="img/small.jpg" 
+            srcset="img/large.jpg 1024w,
+            img/medium.jpg 640w,
+            img/small.jpg 320w"
+            
+            sizes="(min-width: 36em) 33.3vw,
+            100vw"
+
+
+            alt="metamorphosis"
+        >
+
+  </body>
+</html>
