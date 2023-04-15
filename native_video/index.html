@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Native Video</title>
+  <meta name="description" content="Native audio playing in html 5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Carson Andrew Smith">
+
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  
+  <h1>Native Video implementation</h1>
+  <p>Used this method <a href="https://videojs.com/getting-started" target="_blank">here.</a></p>
+  
+
+
+<!--videojs start-->
+<div align="center">
+<video
+  id="my-video"
+  class="video-js"
+  controls
+  preload="auto"
+  width="640"
+  height="264"
+  poster="resources/thumbnail.jpg"
+  data-setup="{}"
+>
+  <source src="resources/hudson-shelter-falls.mp4" type="video/mp4" />
+  <source src="resources/hudson-shelter-falls.webm" type="video/webm" />
+  <source src="resources/hudson-shelter-falls.ogv" type="video/ogv" />
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank"
+      >supports HTML5 video</a
+    >
+  </p>
+</video>
+</div>
+
+<script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+<!--videojs end-->
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

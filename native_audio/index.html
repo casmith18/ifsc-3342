@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Native Audio</title>
+  <meta name="description" content="Native audio playing in html 5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Carson Andrew Smith">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+<h1>Native Audio implementation</h1>
+<p>Used this method <a href="https://thomaswallace.net/module/html5-audio/" target="_blank">here.</a></p>
+
+<div align="center">
+<audio controls="controls" autoplay> <!--I know autoplay is bad i just wanted to test it lol-->
+  <source src="resources/Tokyo-Reggie.ogg" type="audio/ogg" />
+  <source src="resources/Tokyo-Reggie.mp3" type="audio/mp3" />
+  <source src="resources/Tokyo-Reggie.wav" type="audio/wav" />
+  <a href="resources/Tokyo-Reggie.mp3">Download the Audio</a>
+  </audio>
+</div>
+
+  
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
