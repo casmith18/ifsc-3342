@@ -95,6 +95,10 @@ main{
     font-size: 25px;
     background-color: rgba(240, 248, 255, .9);
     box-shadow: 2px 2px 2px 2px black;
+    height: 800px;
+    overflow: scroll;
+    overflow-x:hidden;
+    
   }
 
   #work h1{
@@ -164,6 +168,31 @@ main{
 article h2{
   font-size: 25px;
 }
+
+/*scrollbar color*/
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #c585f7 rgba(240, 248, 255, .9);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(240, 248, 255, .9);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color:#c585f7;
+    border-radius: 6px;
+    border: 3px solid rgba(240, 248, 255, .9);
+  }
+
+/*start of queries*/
 
 @media screen and (max-width:565px){
 
