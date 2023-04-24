@@ -281,7 +281,14 @@ overflow: hidden;
 
 .customfooter{
   color: #fff;
+  background-color: #343a40;
 }
+
+
+#about{
+  max-width: 1500px;
+}
+
 
 /*My queries*/
 
