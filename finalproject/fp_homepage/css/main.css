@@ -264,7 +264,8 @@ textarea {
 /*My CSS*/
 
 .navbar-brand{
-  font-size: 50px;
+  font-size: 70px;
+  font-family: 'Great Vibes', cursive;
 }
 
 .nav-link{
@@ -281,12 +282,21 @@ overflow: hidden;
 
 .customfooter{
   color: #fff;
-  background-color: #343a40;
+  background-color: #899542;
 }
-
 
 #about{
   max-width: 1500px;
+  padding-top:20px;
+}
+
+img{
+  box-shadow:  5px 7px #899542;
+  border-radius: 3px;
+}
+
+body{
+  background-color: #FFFBF1;
 }
 
 

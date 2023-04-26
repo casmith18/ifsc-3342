@@ -285,9 +285,6 @@ overflow: hidden;
   background-color: #899542;
 }
 
-a{
-  color: #000;
-}
 
 #about{
   max-width: 1500px;
@@ -295,7 +292,7 @@ a{
 }
 
 body{
-  padding-bottom: 70px;
+  padding-bottom:70px;
   background-color: #FFFBF1;
 }
 
@@ -303,6 +300,8 @@ img{
   box-shadow:  5px 7px #899542;
   border-radius: 3px;
 }
+
+
 
 
 /*My queries*/
