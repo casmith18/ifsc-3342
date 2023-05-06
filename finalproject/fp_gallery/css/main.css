@@ -273,20 +273,9 @@ textarea {
   color: #fff;
 }
 
-#carouselExampleAutoplaying, .carousel-item img{
-object-fit: cover;
-object-position: center;
-height: 75vh;
-overflow: hidden;
-}
-
 .customfooter{
   color: #fff;
   background-color: #899542;
-}
-
-a{
-  color: #000;
 }
 
 #about{
@@ -294,25 +283,23 @@ a{
   padding-top:20px;
 }
 
-body{
-  padding-bottom: 70px;
-  background-color: #FFFBF1;
-}
-
 img{
   box-shadow:  5px 7px #899542;
   border-radius: 3px;
+}
+
+body{
+  background-color: #FFFBF1;
 }
 
 .navbar{
   background-color: #555;
 }
 
-p{
-  padding-left:10px;
-  padding-right:10px;
-  padding-bottom:10px;
+#pic{
+  padding-bottom:15px;
 }
+
 
 /*My queries*/
 

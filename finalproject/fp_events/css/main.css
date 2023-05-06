@@ -301,7 +301,9 @@ img{
   border-radius: 3px;
 }
 
-
+.navbar{
+  background-color: #555;
+}
 
 
 /*My queries*/

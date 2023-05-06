@@ -299,12 +299,34 @@ body{
   background-color: #FFFBF1;
 }
 
-#map{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  border-bottom: #000;
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:75%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
+
+.navbar{
+  background-color: #555;
 }
 
 
