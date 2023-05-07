@@ -271,11 +271,17 @@ textarea {
 .nav-link{
   font-size: 35px;
   color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link:hover{
+  transform: scale(0.9);
 }
 
 .customfooter{
   color: #fff;
   background-color: #899542;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #about{
@@ -307,7 +313,56 @@ hr{
   padding-bottom:10px;
 }
 
+p{
+  padding-left:10px;
+  padding-right:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  font-weight: 200;
+  padding-bottom:10px;
+}
+
+a{
+  color: #000;
+}
+
 /*My queries*/
 
+@media screen and (max-width:460px){
 
+  .navbar-brand{
+    font-size: 50px;
+  }
+  
+  
+  }
+  
+  @media screen and (max-width:355px){
+  
+  .navbar-brand{
+    font-size: 30px;
+  }
+  
+  }
+  
+  @media screen and (min-width:1300px){
+    p{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width:1200px){
+  
+  .nav-link{
+    font-size:25px;
+  }
+  
+  }
 

@@ -271,18 +271,17 @@ textarea {
 .nav-link{
   font-size: 35px;
   color: #fff;
+  font-family: 'Quicksand', sans-serif;
 }
 
-#carouselExampleAutoplaying, .carousel-item img{
-object-fit: cover;
-object-position: center;
-height: 75vh;
-overflow: hidden;
+.nav-link:hover{
+  transform: scale(0.9);
 }
 
 .customfooter{
   color: #fff;
   background-color: #899542;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -301,12 +300,54 @@ img{
   border-radius: 3px;
 }
 
+a{
+  color: #000;
+}
+
 .navbar{
   background-color: #555;
 }
 
+p{
+  padding-left:10px;
+  padding-right:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+}
 
 /*My queries*/
 
+@media screen and (max-width:460px){
 
+  .navbar-brand{
+    font-size: 50px;
+  }
+  
+  
+  }
+  
+  @media screen and (max-width:355px){
+  
+  .navbar-brand{
+    font-size: 30px;
+  }
+  
+  }
+  
+  @media screen and (min-width:1300px){
+    p{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width:1200px){
+  
+  .nav-link{
+    font-size:25px;
+  }
+  
+  }
 

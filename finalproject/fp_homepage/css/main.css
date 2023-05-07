@@ -271,7 +271,7 @@ textarea {
 .nav-link{
   font-size: 35px;
   color: #fff;
-  font-family: 'Quicksand', sans-serif;
+  c
 }
 
 .nav-link:hover{
@@ -347,7 +347,7 @@ h1{
 
 @media screen and (min-width:1300px){
   p{
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -358,4 +358,6 @@ h1{
 }
 
 }
+
+
 
