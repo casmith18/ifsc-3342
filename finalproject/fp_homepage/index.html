@@ -19,6 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
 </head>
 
@@ -45,28 +46,27 @@
   <!--Navbar end-->
   
   <!--Carousel-->
-  <div id="carouselExampleAutoplaying" data-bs-theme="dark" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/placeholder.png" class="d-block w-100" alt="placeholder1">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
+
+      <picture>
+        <source srcset="img/caro8.jpg" media="(min-width: 991px)">
+        <img src="img/caro8-min.jpg" class="d-block w-100" alt="aerial shot of lake ouachita">
+      </picture>
+      
       </div>
       <div class="carousel-item">
-        <img src="img/placeholder.png" class="d-block w-100" alt="placeholder2">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
+
+    
+
+        <img src="img/caro2.jpg" class="d-block w-100" alt="beautiful sunset over lake ouachita">
+     
+
+
       </div>
       <div class="carousel-item">
-        <img src="img/placeholder.png" class="d-block w-100" alt="placeholer3">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
+        <img src="img/caro3.png" class="d-block w-100" alt="shot from on top of an island in lake ouachita">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -84,22 +84,27 @@
   <!--Row 1-->
   <div class="container-fluid text-center" id="about">
     <div class="row pt-3">
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-md-12 col-lg-6">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reprehenderit accusantium. Eligendi facere blanditiis, 
-          beatae adipisci asperiores est doloremque saepe explicabo, nam quae enim illo quisquam, aspernatur repellat impedit excepturi 
-          delectus molestiae cupiditate nesciunt architecto illum rerum iusto quasi. Aperiam.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reprehenderit accusantium. Eligendi facere blanditiis, 
-          beatae adipisci asperiores est doloremque saepe explicabo, nam quae enim illo quisquam, aspernatur repellat impedit excepturi 
-          delectus molestiae cupiditate nesciunt architecto illum rerum iusto quasi. Aperiam.</p>
+        <p>Arkansas’s largest lake, Lake Ouachita offers 40,000 acres of clear, clean water surrounded by the scenic Ouachita 
+          National Forest. Swimming, skiing, scuba diving, boating, kayaking, and fishing are enjoyed here. Bream, crappie, catfish,
+          striped bass, and largemouth bass can be caught in open waters or quiet coves. Choose from a wide variety of day-use areas
+           and overnight accommodations.</p>
+        <p>The park has 93 campsites (58 Class AAA, 23 Class D, and 12 walk-in tent sites), some right on the water. 
+          There are eight fully-equipped cabins with kitchens and the comforts of home, most of them overlooking the lake. 
+          Four camper cabins are an affordable option and are right in the campground. They include one room sleeping for four, 
+          screened porch, heat/air, picnic table, outdoor grill, and lantern hanger. A bathhouse is nearby. Bring your own linens,
+           cooler, and cooking supplies. They are dog-friendly. Other facilities include Caddo Bend trail, picnic tables, swimming 
+           areas, and a marina with boat and kayak rentals, bait, and supplies. Historic Three Sisters’ Springs is in the park. 
+           There are also exhibits and a gift shop inside the visitor center. Interpretive programs such as guided hikes, eagle 
+           cruises, and kayak tours are offered year-round. The state park is near Hot Springs and Hot Springs Village.</p>
       </div>
-      <div class="col-12 col-lg-3">
-        <img src="img/placeholder.png">
-        <h1>Camping</h1>
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <a href="../fp_camping/index.html"><img src="img/campinghomepage2.jpg" alt="camping"><h1>Camping</h1></a>
       </div>
-      <div class="col-12 col-lg-3">
-        <img src="img/placeholder.png">
-        <h1>Activities</h1>
+      <div class="col-12 col-md-6 col-lg-3">
+        <a href="../fp_events/index.html"><img src="img/activiteshomepage.jpg" alt="activities"><h1>Activities</h1></a>
       </div>
     </div>
   <!--Row 1-->
@@ -112,8 +117,7 @@
         
       </div>
       <div class="col-12 col-lg-6">
-        <img src="img/placeholder.png">
-        <a href="../fp_gallery/index.html"><h1>Gallery</h1></a>
+        <a href="../fp_gallery/index.html"><img src="img/galleryhomepage.jpg" alt="image gallery"><h1>Gallery</h1></a>
       </div>
     </div>
   <!--Row 2 end-->
