@@ -275,7 +275,7 @@ textarea {
 }
 
 .nav-link:hover{
-  transform: scale(0.9);
+  color: #899542;
 }
 
 .customfooter{
@@ -302,12 +302,16 @@ body{
   background-color: #555;
 }
 
-#pic{
+.pic{
   padding-bottom:15px;
 }
 
 h1{
   font-family: 'Quicksand', sans-serif;
+}
+
+#sub{
+  font-size: 17px;
 }
 
 /*My queries*/

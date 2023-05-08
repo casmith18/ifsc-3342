@@ -275,7 +275,7 @@ textarea {
 }
 
 .nav-link:hover{
-  transform: scale(0.9);
+  color: #899542;
 }
 
 .customfooter{
@@ -304,16 +304,19 @@ body{
 #imgone{
 float: left;
 margin-right: 15px;
+margin-bottom: 10px;
 }
 
 #imgthree{
 float: left;
 margin-right: 15px;
+margin-bottom: 10px;
 }
 
 #imgtwo{
   float: right;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 h1{
@@ -361,5 +364,14 @@ p{
     font-size:25px;
   }
   
+  }
+
+  @media screen and (max-width:512px){
+
+  img{
+    width:60%;
+  }
+
+
   }
 

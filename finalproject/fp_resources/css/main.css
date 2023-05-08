@@ -275,7 +275,7 @@ textarea {
 }
 
 .nav-link:hover{
-  transform: scale(0.9);
+  color: #899542;
 }
 
 .customfooter{
@@ -309,7 +309,7 @@ hr{
   background-color: #555;
 }
 
-#marina{
+.marina{
   padding-bottom:10px;
 }
 

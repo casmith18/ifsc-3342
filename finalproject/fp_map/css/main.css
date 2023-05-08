@@ -282,7 +282,7 @@ textarea {
 }
 
 .nav-link:hover{
-  transform: scale(0.9);
+  color: #899542;
 }
 
 #about{

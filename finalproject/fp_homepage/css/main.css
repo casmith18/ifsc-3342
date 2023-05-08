@@ -271,17 +271,17 @@ textarea {
 .nav-link{
   font-size: 35px;
   color: #fff;
-  c
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav-link:hover{
-  transform: scale(0.9);
+  color: #899542;
 }
 
 #carouselExampleAutoplaying, .carousel-item img{
 object-fit: cover;
 object-position: center;
-height: 65vh;
+height: 60vh;
 overflow: hidden;
 }
 
@@ -356,6 +356,20 @@ h1{
 .nav-link{
   font-size:25px;
 }
+
+}
+
+@media screen and (max-width:600px){
+
+  #carouselExampleAutoplaying, .carousel-item img{
+  
+    height: 45vh;
+    
+    }
+    
+
+
+
 
 }
 
